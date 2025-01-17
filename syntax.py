@@ -39,3 +39,21 @@ unique_name = set(item['name'] for item in data)
 
 for name in unique_name:
     print(name)
+
+# data structures
+
+#set
+cards = {"apple", "banana", "apple", "cherry"}
+for item in cards:
+    print(item)
+
+#dictionary
+state = {
+    'name':'Colorado',
+    'population': 5878000,
+    'avg_home_price': 553534
+}
+
+print(state['avg_home_price'])
+
+# continue below
