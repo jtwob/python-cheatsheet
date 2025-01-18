@@ -4,9 +4,9 @@ y = 0
 z = [ 12, 8, 4 ]
 
 # print
-print(x)
+print(z[0] % z[2])
 
-# branching
+# branching 
 if not x:
     print(x)
 elif not y:
