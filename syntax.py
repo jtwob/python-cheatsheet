@@ -15,13 +15,20 @@ else:
     print(-1)
 
 # loops
-for i in range(4,8):
+for i in range(4,8,2):
     print(i)
 
 for idx, i in enumerate(z):
     i += 1
     z[idx] = i
     print(idx, i)
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+for x in "banana":
+  print(x)
 
 while(x < 10):
     x += 1
