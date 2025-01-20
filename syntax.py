@@ -23,6 +23,10 @@ for idx, i in enumerate(z):
     z[idx] = i
     print(idx, i)
 
+while(x < 10):
+    x += 1
+print(x)
+
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
@@ -30,9 +34,6 @@ for x in fruits:
 for x in "banana":
   print(x)
 
-while(x < 10):
-    x += 1
-print(x)
 
 # special stuff
 data = [
@@ -63,4 +64,10 @@ state = {
 
 print(state['avg_home_price'])
 
-# continue below
+# exception handling
+
+x = 2
+try:
+    assert(x==1)
+except:
+    print("Nums not equal")
