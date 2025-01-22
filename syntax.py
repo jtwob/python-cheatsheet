@@ -64,6 +64,12 @@ state = {
 
 print(state['avg_home_price'])
 
+#array
+list = [1, 2, 3, 4, 5]
+
+print(list[:3])
+print(list[3:])
+
 # exception handling
 
 x = 2
