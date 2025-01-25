@@ -81,3 +81,10 @@ except:
 # reverse a string
 a="python"
 print("Reverse is", a[::-1])
+
+# split a string
+
+a="Python is the language of the future"
+b=a.split()
+print(b)
+
