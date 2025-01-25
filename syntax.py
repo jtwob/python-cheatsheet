@@ -77,3 +77,7 @@ try:
     assert(x==1)
 except:
     print("Nums not equal")
+
+# reverse a string
+a="python"
+print("Reverse is", a[::-1])
