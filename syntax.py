@@ -93,3 +93,7 @@ print(b)
 a = ["Hello", "World"]
 print(" ".join(a))
 
+# string reversal using slicing
+
+a = "Hello World!"
+print(a[::-1])
