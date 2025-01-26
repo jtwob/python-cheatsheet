@@ -88,3 +88,8 @@ a="Python is the language of the future"
 b=a.split()
 print(b)
 
+# join a string
+
+a = ["Hello", "World"]
+print(" ".join(a))
+
