@@ -16,6 +16,12 @@ class MyCLI(cmd.Cmd):
         print("Bye")
         return True
     
+    def do_thing(self, thing):
+        if thing:
+            print(f"{thing} is a thing!")
+        else:
+            print("A call for things.")
+    
     def default(self, inp):
         print("Invalid command")
 
