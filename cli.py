@@ -1,7 +1,7 @@
 import cmd
 
 class MyCLI(cmd.Cmd):
-    prompt = '(mycli) '
+    prompt = '<BestCLI> '
     intro = "Simple CLI example"
 
     def do_greet(self, name):
@@ -21,6 +21,13 @@ class MyCLI(cmd.Cmd):
             print(f"{thing} is a thing!")
         else:
             print("A call for things.")
+    
+    def do_add(self, args):
+        try:
+            num1, num2 = map(float, args.split())
+            print(f"The sum is: {num1 + num2}")
+        except ValueError:
+            print("Invalid input. Please provide two numbers.")
     
     def default(self, inp):
         print("Invalid command")
